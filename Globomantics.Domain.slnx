@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Globomantics.Domain/Globomantics.Domain.csproj" />
+  <Project Path="Globomantics.Infrastructure/Globomantics.Infrastructure.csproj" />
+  <Project Path="Globomantics.Windows/Globomantics.Windows.csproj" />
+</Solution>
