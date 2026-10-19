@@ -2,7 +2,8 @@
 
 public record Bug(string Title, 
     string Description, 
-    Severity Serverity,
+    Severity Severity,
+    string AffectedVersion,
     int AffectedUsers,
     User CreatedBy,
     User? Assignedto,

@@ -9,7 +9,7 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace Globomantics.Windows.ViewModels;
 
-public abstract class BaseTodoviewModel<T> : ObservableObject, ITodoViewModel
+public abstract class BaseTodoViewModel<T> : ObservableObject, ITodoViewModel
     where T : Todo
 {
     private T? model;
@@ -94,7 +94,7 @@ public abstract class BaseTodoviewModel<T> : ObservableObject, ITodoViewModel
         Parent = parent;
     }
 
-    public BaseTodoviewModel() 
+    public BaseTodoViewModel() 
     {
         DeleteCommand = new RelayCommand(() =>
         {
